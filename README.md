@@ -56,7 +56,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 ```
-![Top Paying Roles](assets\top_paying_roles.png)
+![Top Paying Roles](assets/top_paying_roles.png)
 *Bar graph visualizing the salary for the top 10 salaries for data analysts and the companies offering them; ChatGPT generated this graph from my SQL query results*
 
 **Findings -**
@@ -98,7 +98,7 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
     salary_year_avg DESC;
 ```
-![Top Paying Skills](assets\top_paying_skills.png)
+![Top Paying Skills](assets/top_paying_skills.png)
 *Bar graph visualizing the count of skills for the top 10 paying jobs for data analysts; I made this graph in Excel based on the data from my SQL query results*
 
 **Findings -** Here's the breakdown of the most demanded skills for the top 10 highest paying data analyst jobs in 2023:
